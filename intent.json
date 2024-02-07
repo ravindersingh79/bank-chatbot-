@@ -1,0 +1,115 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello! How can I assist you with your banking needs?", "Hi there! How may I help you today?"]
+      },
+      {
+        "tag": "account_balance",
+        "patterns": ["What's my account balance?", "Check balance", "Account balance"],
+        "responses": ["To check your account balance, please provide me with your account number.", "Sure! To assist you with your account balance, I'll need your account number."]
+      },
+      {
+        "tag": "transaction_history",
+        "patterns": ["Can you provide my transaction history?", "Transaction history", "Past transactions"],
+        "responses": ["To access your transaction history, please provide your account number and the desired time frame.", "Sure! I can help you with your transaction history. Please provide me with your account number and the time frame you're interested in."]
+      },
+      {
+        "tag": "transfer_funds",
+        "patterns": ["I want to transfer funds", "Transfer money", "Send money to another account"],
+        "responses": ["To initiate a funds transfer, please provide me with your account details and the recipient's account information.", "Certainly! To transfer funds, I'll need your account details and the recipient's account information."]
+      },
+      {
+        "tag": "branch_information",
+        "patterns": ["Find a branch near me", "Branch locations", "Nearest bank branch"],
+        "responses": ["To find the nearest branch, please provide me with your location or postal code.", "Sure! I can help you locate the nearest bank branch. Please provide your location or postal code."]
+      },
+      {
+        "tag": "loan_inquiry",
+        "patterns": ["I want to apply for a loan", "Loan options", "Loan eligibility"],
+        "responses": ["To apply for a loan, please provide your contact information and the type of loan you're interested in.", "Sure! I can assist you with loan inquiries. Please provide your contact details and the type of loan you're considering."]
+      },
+      {
+        "tag": "card_services",
+        "patterns": ["Lost my card", "Card activation", "Card limits"],
+        "responses": ["For card-related services, such as reporting a lost card or card activation, please contact our customer support at [phone number] or visit your nearest branch.", "For assistance with card services, like reporting a lost card or inquiring about card limits, please contact our customer support or visit a branch near you."]
+      },
+      {
+        "tag": "interest_rates",
+        "patterns": ["Current interest rates", "Savings account rates", "Mortgage rates"],
+        "responses": ["For information on current interest rates, including savings account rates and mortgage rates, please visit our website or contact our customer support.", "To obtain the latest interest rates, including rates for savings accounts and mortgages, please check our website or reach out to our customer support."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need assistance", "What can you do?"],
+        "responses": ["Of course! I'm here to help. How can I assist you today?", "Certainly! Please let me know what you need assistance with."]
+      },
+      {
+        "tag": "nearest_atm",
+        "patterns": ["Find the nearest ATM", "ATM locations", "Where is the closest ATM?"],
+        "responses": ["To locate the nearest ATM, please provide your location or postal code.", "Sure! I can help you find the closest ATM. Please provide your location or postal code."]
+      },
+      {
+        "tag": "credit_card_application",
+        "patterns": ["Apply for a credit card", "Credit card options", "Credit card eligibility"],
+        "responses": ["To apply for a credit card, please provide your contact information and specify the type of credit card you're interested in.", "Certainly! I can assist you with credit card applications. Please provide your contact details and let me know the type of credit card you'd like to apply for."]
+      },
+      {
+        "tag": "exchange_rates",
+        "patterns": ["Currency exchange rates", "Foreign exchange rates", "Convert currency"],
+        "responses": ["For information on currency exchange rates, please visit our website or contact our customer support.", "To obtain the latest currency exchange rates or perform currency conversions, please check our website or reach out to our customer support."]
+      },
+      {
+        "tag": "mortgage_inquiry",
+        "patterns": ["I want to apply for a mortgage", "Mortgage options", "Mortgage eligibility"],
+        "responses": ["To apply for a mortgage, please provide your contact information and details about the property you're considering.", "Sure! I can assist you with mortgage inquiries. Please provide your contact details and information about the property you're interested in."]
+      },
+      {
+        "tag": "customer_support",
+        "patterns": ["Contact customer support", "Talk to a representative", "Need assistance from a human"],
+        "responses": ["To reach our customer support team, please dial [phone number] or send an email to [email address]. Our representatives are available to assist you.", "If you need assistance from a customer support representative, please call our helpline at [phone number] or send an email to [email address]."]
+      },
+      {
+        "tag": "online_banking_registration",
+        "patterns": ["How to register for online banking", "Online banking signup", "Create an online banking account"],
+        "responses": ["To register for online banking, please visit our website and follow the signup instructions or contact our customer support for assistance.", "Sure! I can guide you through the process of registering for online banking. You can also visit our website for step-by-step instructions."]
+      },
+      {
+        "tag": "savings_account_inquiry",
+        "patterns": ["Open a savings account", "Savings account options", "Interest rates on savings accounts"],
+        "responses": ["To open a savings account, please provide your contact information and any specific preferences you have. Our representatives will guide you through the process.", "Certainly! I can assist you with opening a savings account. Please provide your contact details and any preferences you have for the account."]
+      },
+      {
+        "tag": "investment_options",
+        "patterns": ["Investment options", "Types of investments", "Investment products"],
+        "responses": ["We offer a variety of investment options, including mutual funds, stocks, and bonds. To learn more about our investment products, please contact our investment advisors or visit our website.", "Sure! We have a range of investment options available, such as mutual funds, stocks, and bonds. Our investment advisors can provide more information or you can explore our website for details."]
+      },
+      {
+        "tag": "account_closure",
+        "patterns": ["Close my account", "Account cancellation", "How to close an account"],
+        "responses": ["To close your account, please visit your nearest branch or contact our customer support. They will assist you with the account closure process.", "If you wish to close your account, please reach out to our customer support or visit a branch near you. They will guide you through the account closure process."]
+      },
+      {
+        "tag": "mobile_banking_app",
+        "patterns": ["Mobile banking app", "Download banking app", "Access my accounts through mobile"],
+        "responses": ["To access your accounts through our mobile banking app, please visit the app store relevant to your device and search for our banking app. Once downloaded, you can log in using your online banking credentials.", "Sure! You can access your accounts conveniently through our mobile banking app. Simply search for our banking app on your device's app store and download it. Log in using your online banking credentials to get started."]
+      },
+      {
+        "tag": "business_banking",
+        "patterns": ["Business banking services", "Business accounts", "Corporate banking"],
+        "responses": ["We offer a range of business banking services tailored to the needs of businesses and corporations. To learn more about our business accounts and services, please contact our business banking team.", "Certainly! We provide comprehensive business banking services designed to meet the needs of businesses and corporations. Please get in touch with our business banking team for more information."]
+      },
+      {
+        "tag": "online_security",
+        "patterns": ["Online banking security", "Protect my account", "Prevent unauthorized access"],
+        "responses": ["We take online banking security seriously. Our systems are equipped with advanced security measures, including encryption and multi-factor authentication, to safeguard your account. If you have specific concerns, please contact our customer support for assistance.", "Ensuring the security of your online banking is a top priority. Our systems incorporate robust security features, such as encryption and multi-factor authentication, to protect your account. If you have any specific concerns, please reach out to our customer support."]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["Sorry, I don't understand", "I'm not sure what you mean", "Can you rephrase that?"],
+        "responses": ["I apologize, but I'm not trained to understand that request. Could you please provide more information?", "I'm sorry, I didn't quite get that. Could you please rephrase your question?"]
+      }
+    ]
+  }
+  
